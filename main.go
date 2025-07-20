@@ -8,12 +8,12 @@ import (
 )
 
 func usage() {
-	fmt.Print(`Usage: appendnl
+	fmt.Print(`Usage: append-nl
 
 Will add a newline (\n) to stdin.
 
 EXAMPLE:
-	$ echo -n "foobar" | appendnl 
+	$ echo -n "foobar" | append-nl 
 `)
 	flag.PrintDefaults()
 }
